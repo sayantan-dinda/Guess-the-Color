@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav {
+    background-color: #3A1078;
+    color: #222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* margin-bottom: 10px; */
+}
+
+nav button {
+    border: 2px solid black;
+    outline: none;
+    padding: 10px 8px;
+    color: white;
+    cursor: pointer;
+    background-color: #362FD9;
+    margin: 10px 5px;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.header {
+    background-color: #865DFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 10px; */
+}
+
+.header h1 {
+    font-size: 50px;
+    margin: 0px 0px;
+    letter-spacing: 2px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.boxs {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    /* grid-template-rows: repeat(3, 150px); */
+    column-gap: 10px;
+    margin: 10px;
+}
+
+.fade {
+    opacity: 0;
+}
+
+.main-heading {
+    font-size: 45px;
+    margin: 15px auto;
+    padding-bottom: 10px;
+}
+
+.count {
+    margin-top: 0;
+    font-size: 35px;
+}
+
+.btn1 {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    color: #fff;
+}
